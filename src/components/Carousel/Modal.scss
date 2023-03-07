@@ -5,19 +5,16 @@ $color-black: #1f2937;
 $card-size: 23rem;
 
 body {
-  width: 80vw;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(45deg, $color-purple, $color-pink);
 }
 
-carousal-body {
-  background-image: linear-gradient(45deg, $color-purple, $color-pink);
-  width: 50vw;
-}
 
 * {
   box-sizing: border-box;
